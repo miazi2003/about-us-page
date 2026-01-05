@@ -18,7 +18,7 @@ const Hero = () => (
     <div className="max-w-6xl mx-auto mt-[-20px] md:mt-[-40px]">
       <div className="bg-zinc-800 rounded-xl overflow-hidden aspect-[16/9] md:h-56">
         <img
-          className="h-full w-full object-cover"
+          className="h-full w-full "
           src={hero_image}
           alt="Our Team"
         />
