@@ -34,29 +34,29 @@ const Moments = () => {
     };
 
     animationId = requestAnimationFrame(animate);
-
     return () => cancelAnimationFrame(animationId);
   }, []);
 
   return (
-    <section className="py-24 overflow-hidden">
-      <h2 className="text-center lg:text-[56px] font-bold mb-10">
-        Moments at <span className="text-gray-400 ">— Zentexx</span>
+    <section className="pt-16 lg:pt-20 overflow-hidden">
+      <h2 className="text-center text-3xl sm:text-4xl lg:text-[56px] font-bold mb-8 lg:mb-10">
+        Moments at <span className="text-gray-400">— Zentexx</span>
       </h2>
 
       <div
-        className="overflow-hidden"
+        className="overflow-hidden touch-pan-x"
         onMouseEnter={() => (isHovering.current = true)}
         onMouseLeave={() => (isHovering.current = false)}
       >
         <div
           ref={trackRef}
-          className="flex gap-6 will-change-transform"
+          className="flex gap-4 sm:gap-6 will-change-transform"
         >
           {[...images, ...images].map((img, i) => (
             <div
               key={i}
-              className="min-w-[320px] h-105 rounded-xl overflow-hidden"
+              className="min-w-[240px] sm:min-w-[280px] lg:min-w-[320px] 
+                         aspect-[4/3] lg:h-105 rounded-xl overflow-hidden"
             >
               <img
                 src={img}

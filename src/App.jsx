@@ -22,8 +22,6 @@ function App() {
       <HowWeWork />
       <AnotherSpace />
       <Employees />
-      <FuelingMinds />
-      <Contact />
     </div>
     </>
   );
