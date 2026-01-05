@@ -1,9 +1,9 @@
 import React from "react";
 
 const HowWeWork = () => (
-  <section className="max-w-6xl mx-auto px-6 py-24">
-    <h2 className="text-center text-3xl font-bold mb-14">
-      How We Work
+  <section className="max-w-7xl mx-auto px-6 py-24">
+    <h2 className="text-center lg:text-[56px] font-bold mb-14">
+      How We <span className="text-[#ffffff80]">Work</span>
     </h2>
 
     <div className="grid grid-cols-2 md:grid-cols-3 gap-8">

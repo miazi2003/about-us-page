@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => (
-  <section className="max-w-6xl mx-auto px-6 py-24">
+  <section className="max-w-7xl mx-auto px-6 py-24">
     <h2 className="text-center text-3xl font-bold mb-14">Get In Touch</h2>
 
     <div className="grid md:grid-cols-2 gap-10">

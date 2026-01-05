@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Hero = () => (
-  <section className="pt-28 pb-20 text-center relative">
+  <section className="max-w-7xl pt-28 pb-20 text-center relative mx-auto">
     <h1 className="text-5xl md:text-7xl font-bold leading-tight">
       United For <br />
       <span className="text-gray-500">— Your Success.</span>
